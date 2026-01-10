@@ -36,8 +36,7 @@ Esta es una solución al desafío [Recipe page challenge on Frontend Mentor](htt
 
 ## Autor
 
-- Sitio web - [Juan Condori](https://www.your-site.com)
-- Juan Condori - [carlino022411@gmail.com](https://www.frontendmentor.io/profile/yourusername)
+- Sitio web - [https://portafoliojuan2026.netlify.app/](https://portafoliojuan2026.netlify.app/)
 - Linkedin - [https://www.linkedin.com/in/juan-condori-t/](https://www.linkedin.com/in/juan-condori-t/)
 
 ## Expresiones de gratitud
