@@ -1,0 +1,113 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+
+    --Brown800: hsl(14, 45%, 36%);
+
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+
+    --fuentePrincipal: "Young Serif", serif;
+    --fuenteSecundario: "Outfit", sans-serif;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: var(--fuentePrincipal);
+    font-size: 1.6rem;
+    line-height: 2;
+    width: min(90%, 120rem);
+    margin: 3rem auto;
+}
+
+/** Globales **/
+
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4 {
+    font-family: var(--fuenteHeading);
+    line-height: 1.2;
+}
+h1 {
+    font-size: 4rem;
+    font-family: var(--fuentePrincipal);
+}
+h2 {
+    font-size: 4rem;
+    font-family: var(--fuentePrincipal);
+    color: var(--Brown800);
+}
+.lista li::marker{
+    color: var(--Brown800);
+    font-weight: bold;
+}
+h3 {
+    font-size: 3.2rem;
+    font-family: var(--fuenteSecundario);
+    color: var(--Rose800);
+
+}
+h4 {
+    font-size: 2.8rem;
+}
+img {
+    max-width: 100%;
+}
+p {
+    font-size: 2rem;
+    font-family: var(--fuenteSecundario);
+}
+/*Imagen*/
+img {
+    max-width: 100%;
+    border-radius: 1rem;
+
+}
+.contenido {
+    text-align: center;
+}
+.contenido .contenedor__imagen {
+    display: block;
+}
+ul, ol {
+    font-size: 2rem;
+    font-family: var(--fuenteSecundario);
+}
+.preparacion {
+    margin: 1rem;
+    padding: 2rem;
+    background-color: var(--Rose50);
+    border-radius: 2rem;
+}
+.linea-separacion {
+    height: .2rem;
+    border: none;
+    background-color: var(--Stone150);
+    margin: 3rem auto;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 2rem;
+    font-family: var(--fuenteSecundario);
+    
+    
+}
+.grid .grid__color {
+    color: var(--Brown800);
+    border-bottom: .2rem solid var(--Stone150);
+    font-weight: bold;
+}
+.grid .grid__contenido {
+    border-bottom: .2rem solid var(--Stone150);
+}
+
