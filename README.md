@@ -1,4 +1,4 @@
-# Solución de página de receta
+# Solución de página de receta (Actualizado)
 
 Esta es una solución al desafío [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Los desafíos de Frontend Mentor te ayudan a mejorar tus habilidades de codificación mediante la creación de proyectos reales.
 
